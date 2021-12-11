@@ -1,2 +1,1 @@
-web: gunicorn staticaslrecognition.wsgi --log-file -
-
+web: gunicorn app:app
