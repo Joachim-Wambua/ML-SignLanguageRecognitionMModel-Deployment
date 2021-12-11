@@ -1,5 +1,4 @@
 from flask import Flask, render_template, request
-import os 
 from keras.models import load_model 
 from keras.preprocessing import image
 from keras.preprocessing.image import ImageDataGenerator
